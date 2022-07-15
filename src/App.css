@@ -1,0 +1,12 @@
+.app{
+  min-height: 100vh;
+}
+.col{
+  background-color: red;
+}
+
+.complete{
+  text-decoration: line-through;
+  background-color: #95de64;
+  align-items: none !important;
+}
