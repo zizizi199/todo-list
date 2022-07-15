@@ -20,9 +20,9 @@ export default function List({ lists, setLists }: IProp) {
         })
         setLists(update)
     }
-    const handleDelete = (delStr: string) => {
+    const handleDelete = (e: string) => {
         setLists(lists => {
-            return lists.filter(list => list.work !== delStr)
+            return lists.filter(list => list.work !== e)
         })
     }
     return (
