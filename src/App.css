@@ -10,3 +10,20 @@
   background-color: #95de64;
   align-items: none !important;
 }
+.App {
+  text-align: center;
+  
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+}
+.ant-form{
+  border: 1px solid #b9b7b7;
+  padding :50px;
+  border-radius: 10px;
+}
